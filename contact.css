@@ -1,0 +1,56 @@
+body{
+    background-color:darkkhaki;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+
+input{
+    margin: 20px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    outline: none;
+    
+}
+
+
+.submit{
+    position: relative;
+    left: 65px;
+}
+
+
+.box1{
+    background-color: honeydew;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+
+
+.box2{
+    background-color: honeydew;
+    padding: 12px;
+    border-radius: 12px;
+}

@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body{
+  background-color:gainsboro;
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: darkgreen;
+  padding: 20px;
+}
+
+header img{
+  border-radius: 50%;
+}
+
+
+header i{
+  margin: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: large;
+}
+
+
+nav ul {
+  list-style: none;
+  transform: translate(300px);
+  margin: 30px;
+
+}
+
+
+nav ul li{
+  display: inline-block;
+  width: 200px;
+  
+}
+
+
+@media screen and (max-width:942px){
+
+
+  nav ul li{
+    display: block;
+  }
+
+
+
+
+  nav ul {
+    list-style: none;
+    transform: translate(160px);
+    margin: 30px;
+  
+  }
+  
+
+}
+nav ul a{
+  text-decoration: none;
+  
+}
+
+
+.container1{
+
+  margin: 30px;
+  text-align: center;
+}
+
+
+.container1 input{
+
+  margin: 20px;
+}
+
+
+
+.container2{
+
+  margin: 30px;
+  text-align: center;
+}
+
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table,tr{
+  width: 100%;
+}
+
+
+h1{
+  text-align: center;
+}
+.container3{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px;
+}
+
+.my-footer1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+h2{
+  position: relative;
+  right: 70px;
+}
+
+
+.my-footer2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px;
+}
+
+
+h3{
+text-align: center;
+}
